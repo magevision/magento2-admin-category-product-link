@@ -10,7 +10,6 @@ The Admin Category Product Link extension is a simple but really useful extensio
 ## Other Features
 	* Developed by a Magento Certified Developer
 	* Meets Magento standard development practices
-	* Single License is valid for 1 live Magento installation and unlimited test Magento installations
 	* Simple installation
 	* 100% open source
 
