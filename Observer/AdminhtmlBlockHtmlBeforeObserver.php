@@ -5,7 +5,7 @@
  * @category     MageVision
  * @package      MageVision_AdminCategoryProductLink
  * @author       MageVision Team
- * @copyright    Copyright (c) 2019 MageVision (http://www.magevision.com)
+ * @copyright    Copyright (c) 2020 MageVision (http://www.magevision.com)
  * @license      http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 declare(strict_types=1);
@@ -34,7 +34,7 @@ class AdminhtmlBlockHtmlBeforeObserver implements ObserverInterface
     ) {
         $this->request = $request;
     }
-    
+
     /**
      * Add edit product column
      *
@@ -47,7 +47,7 @@ class AdminhtmlBlockHtmlBeforeObserver implements ObserverInterface
         if (false === ($block instanceof Product)) {
             return;
         }
-        
+
         $block->addColumn(
             'action',
             [
