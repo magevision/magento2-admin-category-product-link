@@ -5,7 +5,7 @@
  * @category     MageVision
  * @package      MageVision_AdminCategoryProductLink
  * @author       MageVision Team
- * @copyright    Copyright (c) 2021 MageVision (http://www.magevision.com)
+ * @copyright    Copyright (c) 2022 MageVision (http://www.magevision.com)
  * @license      http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 declare(strict_types=1);
@@ -40,6 +40,7 @@ class AdminhtmlBlockHtmlBeforeObserver implements ObserverInterface
      *
      * @param Observer $observer
      * @return void
+     * @throws \Exception
      */
     public function execute(Observer $observer)
     {
