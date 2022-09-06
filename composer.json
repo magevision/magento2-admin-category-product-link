@@ -8,7 +8,7 @@
         "magento/module-catalog": "103.0.*||104.0.*"
     },
     "type": "magento2-module",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -24,7 +24,7 @@
     "authors": [
         {
             "name": "MageVision Team",
-            "homepage": "http://www.magevision.com/",
+            "homepage": "https://www.magevision.com/",
             "email": "info@magevision.com"
         }
     ],
