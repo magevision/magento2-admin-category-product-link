@@ -5,7 +5,7 @@
  * @category     MageVision
  * @package      MageVision_AdminCategoryProductLink
  * @author       MageVision Team
- * @copyright    Copyright (c) 2023 MageVision (https://www.magevision.com)
+ * @copyright    Copyright (c) 2024 MageVision (https://www.magevision.com)
  * @license      http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 declare(strict_types=1);
@@ -20,12 +20,7 @@ use Magento\Framework\Event\ObserverInterface;
 
 class AdminhtmlBlockHtmlBeforeObserver implements ObserverInterface
 {
-    /**
-     * Request instance
-     *
-     * @var RequestInterface
-     */
-    protected $request;
+    protected RequestInterface $request;
 
     /**
      * @param RequestInterface $request
